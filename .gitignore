@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+ENV/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.vscode/
+
+# Logs
+*.log
+
+# Large artifacts (keep repo small)
+*.zip
+*.7z
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.tif
+*.tiff
+*.img
+*.nc
+*.h5
+*.hdf
+*.mp4
+*.mov
+*.avi
+
+# Local build output (optional)
+dist/
+build/
